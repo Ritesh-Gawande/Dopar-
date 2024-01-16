@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Restaurant</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+           <nav>
+        <h1>Taj Mahal Hotel </h1> <!-- Logo -->
+        <div>
+            <a href="#">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Locations</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+    </nav>
+    </header>
+    <div class="slider-container">
+        <div class="slider">
+          <div class="slide"><img src="images/t1.jpg" alt="Slide 1"></div>
+          <div class="slide"><img src="images/t2.jpg" alt="Slide 2"></div>
+          <div class="slide"><img src="images/t3.jpg" alt="Slide 3"></div>
+          <div class="slide"><img src="images/t4.jpg" alt="Slide 4"></div>
+          <div class="slide"><img src="images/t5.jpg" alt="Slide 5"></div>
+        </div>
+        <button id="prev" onclick="prevSlide()">❮</button>
+        <button id="next" onclick="nextSlide()">❯</button>
+      </div>
+      
+
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu">
+            <!-- Replace with actual menu items -->
+            <div class="menuItem veg">
+                <img src="images/paneer.jpg" alt="Paneer Tikka Masala" class="menuImage">
+                <h3>Paneer Tikka Masala</h3>
+                <p>Delicious paneer cooked in a rich tomato-based gravy.</p>
+                <p>400 Rs</p>
+            </div>
+            <div class="menuItem veg">
+                <img src="images/pulao.jpg" alt="Veg Pulav" class="menuImage">
+                <h3>Veg Pulav</h3>
+                <p>Fragrant and flavorful mixed vegetable pulav.</p>
+                <p>500 Rs</p>
+            </div>
+            <div class="menuItem nonveg">
+                <img src="images/chicken.jpg" alt="Chicken Masala" class="menuImage">
+                <h3>Chicken Masala</h3>
+                <p>Spicy and succulent chicken cooked in a masala gravy.</p>
+                <p>800 Rs</p>
+            </div>
+            <div class="menuItem veg">
+                <img src="images/noodles.jpg" alt="Veg Noodles" class="menuImage">
+                <h3>Veg Noodles</h3>
+                <p>Stir-fried noodles with assorted vegetables.</p>
+                <p>600 Rs</p>
+            </div>
+            <div class="menuItem nonveg">
+                <img src="images/CHIKCEN-HAKKA-NOODLE.jpg" alt="Non-veg Noodles" class="menuImage">
+                <h3>Non-veg Noodles</h3>
+                <p>Flavorful noodles with a mix of chicken and veggies.</p>
+                <p>600 Rs</p>
+            </div>
+            <div class="menuItem veg">
+                <img src="images/fried.jpg" alt="Fried Rice Veg" class="menuImage">
+                <h3>Fried Rice Veg</h3>
+                <p>Vegetarian fried rice with a perfect blend of flavors.</p>
+                <p>700 Rs</p>
+            </div>
+            <div class="menuItem nonveg">
+                <img src="images/non fried.jpg" alt="Fried Rice Non-veg" class="menuImage">
+                <h3>Fried Rice Non-veg</h3>
+                <p>Delicious fried rice with a mix of chicken and veggies.</p>
+                <p>900 Rs</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="reviews flex-container">
+        <h2>Customer Reviews</h2>
+        <!-- Replace with actual reviews -->
+        <div>
+        <div class="review">
+            <h3>Narendra Modi</h3>
+            <p>"Amazing food and great service! Highly recommend."</p>
+            
+        </div>
+        <div class="review">
+            <h3>Ratan Tata</h3>
+            <p>"The ambiance is fantastic. Will definitely visit again."</p>
+        </div> 
+        </div>
+        <div>
+        <div class="review">
+            <h3>Mukesh Ambani</h3>
+            <p>"Amazing food and great taste"</p>
+            
+        </div>
+        <div class="review">
+            <h3>Ritesh Gawande</h3>
+            <p>"The ambiance is fantastic and great food"</p>
+        </div>
+    </div>
+
+
+    </section>
+
+
+    <section id="contact" class="footer">
+        <h2>Contact Us</h2>
+        <p>Mumbai | <a href="https://www.tajhotels.com/en-in/destination/hotels-in-goa/">Goa</a> | <a href="https://www.tajhotels.com/en-in/destination/hotels-in-new-delhi/">New delhi</a> | <a href="#">About Us</a> | <a href="#">Privacy Policy</a> | <a href="#">Refund Policy</a></p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2474.253929391479!2d72.83218783255668!3d18.921502910388593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1c06fffffff%3A0xc0290485a4d73f57!2sThe%20Taj%20Mahal%20Palace%2C%20Mumbai!5e1!3m2!1sen!2sin!4v1705418473714!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
